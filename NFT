@@ -2,31 +2,28 @@ const NFT = ["GardenSnailNFT", "GarlicSnailNFT", "GiantSnailNFT"];
 
 function mintNFT () {
 
-var GardenSnailNFT = GardenSnail
-var GarlicSnailNFT = GarlicSnail
-var GiantSnailNFT = GiantSnail
 
-var GardenSnail = {
+var GardenSnailNFT = {
 name: 'GardenSnail',
 rarity: 'rarity:common'
 }
 
-var GarlicSnail = {
+var GarlicSnailNFT = {
 name: 'GarlicSnail',
 rarity: 'rarity:uncommon'
 }
 
-var GiantSnail = {
+var GiantSnailNFT = {
 name: 'GiantSnail',
 rarity: 'rarity:rare'
 }
 
-console.log(GardenSnail.name);
-console.log(GardenSnail.rarity);
-console.log(GarlicSnail.name);
-console.log(GarlicSnail.rarity);
-console.log(GiantSnail.name);
-console.log(GiantSnail.rarity);
+console.log(GardenSnailNFT.name);
+console.log(GardenSnailNFT.rarity);
+console.log(GarlicSnailNFT.name);
+console.log(GarlicSnailNFT.rarity);
+console.log(GiantSnailNFT.name);
+console.log(GiantSnailNFT.rarity);
 
 }
 
